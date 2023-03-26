@@ -1,0 +1,14 @@
+//Lecture 01
+//Most basic may of creating a element in React 
+const header = React.createElement('h1',{},'Namaste')
+// h1 --> type of element 
+// {} --> all the props of that element ---- Note: {} can be replaced with null or undefined react will not care but you cannot leave that place empty
+// 'Namaste' --> Contain of the element ---- Note: this place can also have [ ] but the array represents that element will have childrens
+
+const root = React.createRoot(document.getElementById('root'))
+// it only takes the root element position and IMPORTANT NOTE this root will be OVERRIDDEN by react ,So if you put anything in root then it will be replaced by react
+
+root.render(header)
+
+//Every React element is OBJECT 
+// REACT vs REACTDOM --> React is the library which creates the elments but REACTDOM makes it possible for react to Render it's element on DOM , So ReactDOM is the bridge which connects REACT and Browser
