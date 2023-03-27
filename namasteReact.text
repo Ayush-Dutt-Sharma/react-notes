@@ -12,3 +12,10 @@ root.render(header)
 
 //Every React element is OBJECT 
 // REACT vs REACTDOM --> React is the library which creates the elments but REACTDOM makes it possible for react to Render it's element on DOM , So ReactDOM is the bridge which connects REACT and Browser
+
+
+Lecture 02
+// BrowserList --- maskes your code compatible with older browsers
+// package.json vs. package-lock.json
+// Transitive Dependencies
+// should you push package-lock.json on git ?
